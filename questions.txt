@@ -1,7 +1,0 @@
-What are the most popular ingredients over time?
-Which type of cuisine is the most popular over time?
-How long are the recipes for the most popular reviews?
-What's the most controversial ingredient?
-What keywords should your recipe contain to be loved?
-
-

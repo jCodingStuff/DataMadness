@@ -1,0 +1,24 @@
+1. Per recipe, compute AVG, STD rating and number of votes. Join with recipe DF.
+
+2. Drop recipes which take longer than 5 hours
+
+3. Drop dessert recipes
+
+4. Out of the most common tags, we select 6 cuisine types. We analyze the yearly fraction of recipes containing the tag.
+
+5. We select vegetarian and healthy as our interesting tags.
+
+6. We plot the yearly total number of recipes over time.
+
+7. Out of the recipes regarding vegetarian and healthy, we extract the most used ingredients. Out of those, we select non-condiments (e.g. not salt, olive oil, butter, etc.) and plot the yearly fraction of recipes containing each of them.
+
+8. We choose the least controversial controversial ingredients (low std rating) and loved by everyone (high avg rating)
+
+9. We choose our recipe data by taking the median among those recipes whose avg rating > 4.5 and n_votes > 50
+
+nIngredients: 8.0
+Minutes: 30.0
+nSteps: 8.0
+Desc length: 35.0
+Name length: 5.0
+

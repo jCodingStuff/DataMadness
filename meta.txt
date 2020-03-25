@@ -1,11 +1,11 @@
 Lucas Giovanni Uberti-Bona Marín (i6161786)
 Julián Ramón Marrades Furquet (i6161890)
 
-1. What are the most popular ingredients over time?
-2. Which type of cuisine is the most popular over time?
-3. How long are the recipes for the most popular reviews?
+1. What are the most popular ingredients over time? (DONE)
+2. Which type of cuisine is the most popular over time? (DONE)
+3. How long are the recipes for the most popular reviews? (DONE)
 4. What's the most controversial ingredient?
-5. What keywords should your recipe contain to be loved?
+5. What keywords (ingredients) should your recipe contain to be loved? (DONE)
 
 https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions
 

@@ -30,7 +30,7 @@ We decide to focus on healthy and vegetarian cuisine since it seems like these h
 
 The decline in percentage for all tags can be explained by a general reduction in the number of recipes and in the tags per recipe.
 
-![total](/Users/admin/Desktop/DA/DataMadness/imgs/tags_yearly_total.png)
+![total](imgs/tags_yearly_total.png)
 
 
 
@@ -38,7 +38,7 @@ The decline in percentage for all tags can be explained by a general reduction i
 
 After that we looked at what name to use for the recipe taking into account the most popular recipes for this we define very/not so popular as given by the number of votes and positive/negative given by the average rating. Using the top and bottom quartile to split the data.
 
-![boxplot](/Users/admin/Desktop/DA/DataMadness/imgs/votes_rating_veghealth.png)
+![boxplot](imgs/votes_rating_veghealth.png)
 
 We then plotted each group as a wordcloud.
 
@@ -54,13 +54,13 @@ First, we analyzed the most popular ingredients, for this we used a counter to s
 
 Then we look at the popularity evolution of non-condiment ingredients and decide to add tomato and onion to our recipe due to their high and continued popularity.
 
-![ingredients](/Users/admin/Desktop/DA/DataMadness/imgs/ing_yearly copy.png)
+![ingredients](imgs/ing_yearly copy.png)
 
 Next we trained a linear regression model on the recipes using the ingredients as features and the standard deviation as the label. This was done with the purpose of then exploring the weights of different ingredients to find which ones had highest values (which meant they led to high standard deviations, therefore meaning controversial ingredients) and which ones had the lowest values. 
 
 From this we extracted another two ingredients, agave syrup and black vinegar. And then we decided two more ourselves to complement the ones chosen automatically.
 
-![lr](/Users/admin/Desktop/DA/DataMadness/imgs/ing_std.png) 
+![lr](imgs/ing_std.png) 
 
 Regarding the steps to follow we decided to keep it simple and trust the reader’s ability to mix up the ingredients and cook them up themselves.
 

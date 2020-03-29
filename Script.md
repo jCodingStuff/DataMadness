@@ -1,6 +1,10 @@
 ## Funny intro
 
+> Display first vide of trapped man/woman then short clip of a feast
+
 Covid has us all enclosed at home and for me personally, the only thing that's keeping my hopes up is food. So Juli and I decided that after all this is over we shall throw a feast for everyone to celebrate. 
+
+> Play music
 
 But what should we cook we pondered?
 
@@ -49,10 +53,38 @@ For popularity:
 
 > Display `name_popularity_good`.png, `name_popularity_bad.png`,  `name_ppopularity_bad.png` and  `name_ppopularity_bad.png`. In a grid. If you want you can point at the words I am mentioning while I do.
 
-As we can see there are some mixed signals, positive popularity indicates we should use salad and fruit but popularity tells us those aren't good keywords. After analyzing these wordclouds we decide our name will be 'Roasted potato and garlic with bread'.
+As we can see there are some mixed signals, positive popularity indicates we should use salad and fruit but popularity tells us those aren't good keywords. After analyzing these wordclouds we decide our name will be 'Roasted potato with garlic and bread'.
 
 ## Ingredients
 
 Now we need to decide which ingredients to use for our 'Roasted potato and garlic with bread recipe'. Potato, garlic and bread seems to be an obvious choice. But those might not be enough since we've observed that the best recipes (with a score of at least 4.5 and at least 50 votes) have an average of 9 ingredients so that's the number we're going for.   
 
-To find our next 6 ingredients we take 3 approaches. First we look into most popular ingredients and add two of them, salt and olive oil. Next we 
+To find our next 6 ingredients we take 3 approaches. 
+
+First we look into most popular ingredients and add two of them, salt and olive oil. 
+
+> Display `ing_yearly.png` 
+
+Next we look at the popularity evolution of non-condiment ingredients and decide to add tomato and onion to our recipe due to their high and continued popularity.
+
+We also want to add non-controversial ingredients that everyone will love so we fit a logistic regression model that will try to predict the standard deviation of a recipe using its ingredients as features and use the weights to explore interesting ingredients. Those with higher weights will be controversial (leading to high standard deviations) and those with low weights will be widely loved. 
+
+> Display `reg_std_low.png` `reg_std_high.png` 
+
+Apparently pectin is an extremely controversial ingredient, and rightfully so, what the (censored beep) is that? I swear we shouldn't have used an american dataset. 
+
+Anyway, it seems like agave syrup and black vinegar are loved by everyone so I guess they're in. 
+
+And the last approach was asking ourselves how we can try to fix this mess. Maybe some thyme and rosemary can round this up well. 
+
+> Display pic of thyme and rosemary
+
+## Steps to follow
+
+By now we realized maybe AI isn't ready to cook yet, so just use the biggest Neural Network available and follow your instincts I guess.
+
+> Display picture of brain
+
+Please do not try this at home unless you're american and/or have a terrible taste for food.
+
+> Display [pic](https://www.taste.com.au/recipes/garlic-bread-potato-bake-recipe/5yfd3kim)  

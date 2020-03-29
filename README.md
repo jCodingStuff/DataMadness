@@ -1,3 +1,5 @@
+You can find our analyzing this dataset [here](https://www.youtube.com/watch?v=XtfC3p_dYtA&t=14s) 
+
 ## The dataset
 
 Our dataset was obtained from the following Kaggle competition:

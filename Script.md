@@ -1,4 +1,4 @@
-## Funny intro (33s)
+## Funny intro (26s)
 
 > Display first vide of trapped man/woman then short clip of a feast
 
@@ -16,7 +16,7 @@ To find said data we used our extremely thorough and advanced research skills th
 
 Aha, there it is, just what we wanted. A dataset with lots of recipes.
 
-## Outline (9s)
+## Outline (7s)
 
 To build this perfect recipe we had to determine the following: 
 
@@ -33,15 +33,11 @@ In our dataset we have a number of tags for each recipe. To explore the evolutio
 
 We observe that `healthy` and `vegetarian` appear to show the most consistently high popularity so we decide we will use these. 
 
-## Name for the recipe (34s)
+## Name for the recipe (31s)
 
 Our next step is deciding the name. We thought about going for 'The best recipe ever' but decided to go for something a bit more descriptive. 
 
-We  analyze the names of the most and least succesful recipes. We measured this using two metrics, popularity (measured as number of votes), and positive popularity (measured as average rating). 
-
-> Display `boxplot.png`
-
-We then split recipes into two groups consisting of the bottom and top quartiles for each of these metrics and explore which words are most characteristic of each.
+We  analyze the names of the most and least succesful recipes using two metrics, popularity (measured as number of votes), and positive popularity (measured as average rating). 
 
 > Display `name_popularity_good`.png, `name_popularity_bad.png`,  `name_ppopularity_bad.png` and  `name_ppopularity_bad.png`. In a grid. If you want you can point at the words I am mentioning while I do.
 

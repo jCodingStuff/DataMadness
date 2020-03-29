@@ -47,6 +47,12 @@ We then split into two groups consisting of the bottom and top quartiles for eac
 
 For popularity:
 
-> Display `name_popularity_good`.png, `name_popularity_bad.png`,  `name_ppopularity_bad.png` and  `name_ppopularity_bad.png`. In a grid.
+> Display `name_popularity_good`.png, `name_popularity_bad.png`,  `name_ppopularity_bad.png` and  `name_ppopularity_bad.png`. In a grid. If you want you can point at the words I am mentioning while I do.
 
-As we can see there are some mixed signals, positive popularity indicates we should use salad and fruit but popularity tells us those aren't 
+As we can see there are some mixed signals, positive popularity indicates we should use salad and fruit but popularity tells us those aren't good keywords. After analyzing these wordclouds we decide our name will be 'Roasted potato and garlic with bread'.
+
+## Ingredients
+
+Now we need to decide which ingredients to use for our 'Roasted potato and garlic with bread recipe'. Potato, garlic and bread seems to be an obvious choice. But those might not be enough since we've observed that the best recipes (with a score of at least 4.5 and at least 50 votes) have an average of 9 ingredients so that's the number we're going for.   
+
+To find our next 6 ingredients we take 3 approaches. First we look into most popular ingredients and add two of them, salt and olive oil. Next we 

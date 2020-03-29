@@ -54,7 +54,7 @@ First, we analyzed the most popular ingredients, for this we used a counter to s
 
 Then we look at the popularity evolution of non-condiment ingredients and decide to add tomato and onion to our recipe due to their high and continued popularity.
 
-![ingredients](imgs/ing_yearly_copy.png)
+![ingredients](imgs/ing_yearly\ copy.png)
 
 Next we trained a linear regression model on the recipes using the ingredients as features and the standard deviation as the label. This was done with the purpose of then exploring the weights of different ingredients to find which ones had highest values (which meant they led to high standard deviations, therefore meaning controversial ingredients) and which ones had the lowest values. 
 

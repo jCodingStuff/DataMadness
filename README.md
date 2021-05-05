@@ -1,4 +1,4 @@
-You can find our analyzing this dataset [here](https://www.youtube.com/watch?v=XtfC3p_dYtA&t=14s) 
+You can find our video about analyzing this dataset [here](https://www.youtube.com/watch?v=XtfC3p_dYtA&t=14s) 
 
 ## The dataset
 
